@@ -1,14 +1,26 @@
 
 
 
+var name = "dinesh"
+var name = "pawar"
+
+console.log(name);
+
+
+
+
+
+
+
+
 
 
 
 
 //print (5, 10, 15, ... 50)
 
-for(let i = 5; i<51; i+=5)
-    console.log(i)
+// for(let i = 5; i<51; i+=5)
+//     console.log(i)
 
 
 
