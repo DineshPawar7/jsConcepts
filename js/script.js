@@ -1,17 +1,135 @@
 
-if (true) {
-    let y = 20
 
-    console.log(y)
+let a = 10
+console.log(a+5)
 
+
+// if (true) {
+//     let b = 50
+// }
+// console.log(b)  //not solved
+ 
+
+
+let person = {
+ 
+    name: "rahul",
+    age: 20
+}
+
+person.age = 25
+
+console.log(person.age)
+
+
+
+let data = { price: 100 } // not solved
+
+
+
+for (let i = 0; i < 3; i++) {
+    setTimeout(() => {
+        console.log(i)
+    }, 0)
 }
 
 
-if (true) {
-    const z = 30
-
-    console.log(z)
+for (var z = 0; z < 3; z++) {
+    setTimeout(() => {
+        console.log(z)
+    }, 0)
 }
+
+
+
+console.log(handred)
+var handred = 100
+
+
+
+
+
+
+console.log(handred2)
+let handred2 = 100
+
+
+
+let arr = [100, 200, 300] 
+let total = 0
+
+for (let i = 0; i < arr.length; i++) {
+    total += arr[i]
+}
+
+console.log(total)
+
+
+
+
+
+
+
+
+// for (let i = 0; i < 3; i++) {
+//     setTimeout(() => {
+//         console.log(i)
+//     }, 1000)
+// }
+
+
+
+
+
+// for (var i = 0; i < 3; i++) {
+//     setTimeout(() => {
+//         console.log(i)
+//     }, 1000)
+// }
+
+
+
+
+// const person = {
+
+//     name: "Rahul"
+// }
+
+// person.name = "amit"
+
+// console.log(person.name)
+
+
+
+
+
+// var a;
+
+// console.log(a)
+
+
+// a = 5
+
+// console.log(a)
+
+
+// let b = 10
+// console.log(b)
+
+
+// if (true) {
+//     let y = 20
+
+//     console.log(y)
+
+// }
+
+
+// if (true) {
+//     const z = 30
+
+//     console.log(z)
+// }
 
 
 // if (true) {
