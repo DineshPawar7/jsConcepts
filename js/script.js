@@ -1,15 +1,32 @@
 
 
 
-var name = "dinesh"
-var name = "pawar"
+if (true) {
+    var x = 10
 
-console.log(name);
+    console.log(x)
+
+}
 
 
 
+// var name = "dinesh"
+// var name = "pawar"
+
+// console.log(name);
 
 
+// let age = 20
+// age = 25
+
+// console.log(age)
+
+
+// const age2 = 33
+
+// // age2 = 23
+
+// console.log(age2)
 
 
 
