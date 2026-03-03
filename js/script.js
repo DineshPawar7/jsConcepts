@@ -1,12 +1,25 @@
 
+if (true) {
+    let y = 20
+
+    console.log(y)
+
+}
 
 
 if (true) {
-    var x = 10
+    const z = 30
 
-    console.log(x)
-
+    console.log(z)
 }
+
+
+// if (true) {
+//     var x = 10
+
+//     console.log(x)
+
+// }
 
 
 
