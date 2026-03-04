@@ -1,69 +1,47 @@
 
 
-let a = 10
-console.log(a+5)
+function outTer() {
+    let data = "dataaaa22222"
+    console.log(data)
+
+    function inner1() {
+        let innerData1 = "innerData1"
+        console.log(innerData1)
+    };
+
+      function inner2() {
+        let innerData2 = "innerData2"
+        console.log(innerData2)
+
+                console.log("inner2", data)
+
+    }
+
+    inner1()
+    inner2()
 
 
-// if (true) {
-//     let b = 50
-// }
-// console.log(b)  //not solved
- 
-
-
-let person = {
- 
-    name: "rahul",
-    age: 20
 }
 
-person.age = 25
-
-console.log(person.age)
+outTer()
 
 
 
-let data = { price: 100 } // not solved
-
-
-
-for (let i = 0; i < 3; i++) {
-    setTimeout(() => {
-        console.log(i)
-    }, 0)
-}
-
-
-for (var z = 0; z < 3; z++) {
-    setTimeout(() => {
-        console.log(z)
-    }, 0)
-}
-
-
-
-console.log(handred)
-var handred = 100
-
-
-
-
-
-
-// console.log(handred2)
-// let handred2 = 100
-
-
-
-// let arr = [100, 200, 300] 
-// let total = 0
-
-// for (let i = 0; i < arr.length; i++) {
-//     total += arr[i]
+// function myData() {
+//     var data = "4434"
+//     console.log(data)
 // }
 
-// console.log(total)
 
+// console.log("data", data)
+
+
+// function Mydata() {
+//     var data = '7875'
+//     console.log(data)
+// }
+// console.log(data)
+// Mydata()
 
 
 
