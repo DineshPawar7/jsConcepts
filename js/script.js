@@ -1,29 +1,94 @@
 
 
-function outTer() {
-    let data = "dataaaa22222"
-    console.log(data)
+function parent() {
+    parentValue = '290'
 
-    function inner1() {
-        let innerData1 = "innerData1"
-        console.log(innerData1)
-    };
-
-      function inner2() {
-        let innerData2 = "innerData2"
-        console.log(innerData2)
-
-                console.log("inner2", data)
-
+    function chile() {
+       console.log("logs from child:", parentValue)
     }
 
-    inner1()
-    inner2()
-
-
+    return chile
 }
 
-outTer()
+const parentBottom = parent()
+console.log("outer log", parentBottom)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let userOne = {
+//     email: "dinesh@gmail.com",
+//     upi: "dinesh@ybl"
+// }
+
+// console.log("user email", userOne.email)
+// console.log("user upi", userOne.upi)
+
+
+
+
+// function makeFun() {
+//     const name = "dinesh"
+//     function displayName() {
+//         console.log(name)
+//     }
+//     return displayName
+// }
+
+// const myFun = makeFun()
+// myFun()
+
+
+
+
+
+
+
+
+
+// function outTer() {
+//     let data = "dataaaa22222"
+//     console.log(data)
+
+//     function inner1() {
+//         let innerData1 = "innerData1"
+//         console.log(innerData1)
+//     };
+
+//       function inner2() {
+//         let innerData2 = "innerData2"
+//         console.log(innerData2)
+
+//                 console.log("inner2", data)
+
+//     }
+
+//     inner1()
+//     inner2()
+
+
+// }
+
+// outTer()
 
 
 
