@@ -1,18 +1,33 @@
 
 
-function parent() {
-    parentValue = '290'
+function counter() {
+    let count = 0;
 
-    function chile() {
-       console.log("logs from child:", parentValue)
+    return {
+        increment: function() {
+            count++;
+            console.log(count)
+        },
+        decrement: function() {
+            count--;
+            console.log(count)
+        },
+        getCount: function() {
+            console.log(count)
+        }
     }
-
-    return chile
 }
 
-const parentBottom = parent()
-console.log("outer log", parentBottom)
+const myCounter = counter()
 
+
+myCounter.increment()
+myCounter.decrement()
+myCounter.increment()
+myCounter.increment()
+myCounter.increment()
+myCounter.decrement()
+myCounter.increment()
 
 
 
