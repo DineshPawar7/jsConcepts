@@ -50,19 +50,19 @@ var handred = 100
 
 
 
-console.log(handred2)
-let handred2 = 100
+// console.log(handred2)
+// let handred2 = 100
 
 
 
-let arr = [100, 200, 300] 
-let total = 0
+// let arr = [100, 200, 300] 
+// let total = 0
 
-for (let i = 0; i < arr.length; i++) {
-    total += arr[i]
-}
+// for (let i = 0; i < arr.length; i++) {
+//     total += arr[i]
+// }
 
-console.log(total)
+// console.log(total)
 
 
 
