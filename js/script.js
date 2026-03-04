@@ -1,41 +1,15 @@
 
 
-function counter() {
-    let count = 0;
 
-    return {
-        increment: function() {
-            count++;
-            console.log(count)
-        },
-        decrement: function() {
-            count--;
-            console.log(count)
-        },
-        getCount: function() {
-            console.log(count)
-        }
+
+function greeting(name) {
+    return function(message) {
+        console.log(message + "," + name)
     }
 }
-
-const myCounter = counter()
-
-
-myCounter.increment()
-myCounter.decrement()
-myCounter.increment()
-myCounter.increment()
-myCounter.increment()
-myCounter.decrement()
-myCounter.increment()
-
-
-
-
-
-
-
-
+const greetJohn = greeting('john')
+greetJohn('hello')
+greetJohn('good morning')
 
 
 
