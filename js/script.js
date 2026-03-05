@@ -3,19 +3,49 @@
 
 
 const user = {
-    username: "dinesh",
-    price: 55,
-
-
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`)
-        console.log(this)
+    name: "dinesh",
+    age: 25,
+    greet: function () {
+        console.log("hello", this.name)
     }
 }
 
 
+user.greet()
 
-user.welcomeMessage()
+
+
+
+
+
+// function chai() {
+
+//     console.log(this)
+// }
+
+// chai()
+
+
+
+
+
+
+
+
+// const user = {
+//     username: "dinesh",
+//     price: 55,
+
+
+//     welcomeMessage: function() {
+//         console.log(`${this.username} , welcome to website`)
+//         console.log(this)
+//     }
+// }
+
+
+
+// user.welcomeMessage()
 
 
 
