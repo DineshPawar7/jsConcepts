@@ -2,14 +2,41 @@
 
 
 
-function greeting(name) {
-    return function(message) {
-        console.log(message + "," + name)
+const user = {
+    username: "dinesh",
+    price: 55,
+
+
+    welcomeMessage: function() {
+        console.log(`${this.username} , welcome to website`)
+        console.log(this)
     }
 }
-const greetJohn = greeting('john')
-greetJohn('hello')
-greetJohn('good morning')
+
+
+
+user.welcomeMessage()
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function greeting(name) {
+//     return function(message) {
+//         console.log(message + "," + name)
+//     }
+// }
+// const greetJohn = greeting('john')
+// greetJohn('hello')
+// greetJohn('good morning')
 
 
 
